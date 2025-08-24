@@ -17,17 +17,4 @@ install2.r --error --skipinstalled -n -1 \
   Matrix         \
   mice           \
   numDeriv       \
-  plyr           \
-  Rcpp           \
-  RcppArmadillo  \
-  RcppGSL        \
-  Rdpack         \
-  remotes        \
-  reshape2       \
-  rmarkdown      \
-  Ryacas         \
-  stringi        \
-  testthat       \
-  tibble         \
-  tinytex        \
-  xtable
+  plyr
