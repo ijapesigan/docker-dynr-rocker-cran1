@@ -31,30 +31,3 @@ install2.r --error --skipinstalled -n -1 \
   tibble         \
   tinytex        \
   xtable
-
-# vscode project dependencies
-install2.r --error --skipinstalled -n -1 \
-  languageserver \
-  styler         \
-  lintr
-
-# removed from CRAN
-# httpgd         \
-
-# autoVAR dependencies
-install2.r --error --skipinstalled -n -1 \
-  qgraph \
-  igraph \
-  fclust
-
-# simStateSpace
-install2.r --error --skipinstalled -n -1 \
-  simStateSpace
-
-# bootStateSpace
-install2.r --error --skipinstalled -n -1 \
-  bootStateSpace
-
-# cTMed
-install2.r --error --skipinstalled -n -1 \
-  cTMed
