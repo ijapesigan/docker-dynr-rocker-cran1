@@ -3,7 +3,9 @@
 set -e
 
 install2.r --error --skipinstalled -n -1 \
-  ggplot2
+  ggplot2        \
+  knitr          \
+  devtools
 
 #install2.r --error --skipinstalled -n -1 \
 #  car            \
