@@ -3,8 +3,7 @@
 set -e
 
 install2.r --error --skipinstalled -n -1 \
-  devtools       \
-  ggplot2
+  devtools
 
 
 #install2.r --error --skipinstalled -n -1 \
