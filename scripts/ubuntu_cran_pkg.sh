@@ -6,12 +6,24 @@ set -e
 #   usethis         \
 #   ggplot2
 
+# install2.r --error --skipinstalled -n -1 \
+#   magrittr        \
+#   remotes         \
+#   usethis         \
+#   ggplot2         \
+#   knitr
+
 install2.r --error --skipinstalled -n -1 \
   magrittr        \
   remotes         \
   usethis         \
   ggplot2         \
-  knitr
+  knitr           \
+  rmarkdown       \
+  testthat        \
+  tibble          \
+  tinytex         \
+  plyr
 
 #install2.r --error --skipinstalled -n -1 \
 #  car            \
