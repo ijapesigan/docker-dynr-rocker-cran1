@@ -3,7 +3,8 @@
 set -e
 
 install2.r --error --skipinstalled -n -1 \
-  usethis
+  usethis         \
+  ggplot2
 
 
 #install2.r --error --skipinstalled -n -1 \
