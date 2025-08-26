@@ -3,7 +3,7 @@
 set -e
 
 install2.r --error --skipinstalled -n -1 \
-  devtools
+  usethis
 
 
 #install2.r --error --skipinstalled -n -1 \
