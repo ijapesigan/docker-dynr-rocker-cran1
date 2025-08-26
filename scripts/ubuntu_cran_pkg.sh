@@ -13,6 +13,18 @@ set -e
 #   ggplot2         \
 #   knitr
 
+# install2.r --error --skipinstalled -n -1 \
+#   magrittr        \
+#   remotes         \
+#   usethis         \
+#   ggplot2         \
+#   knitr           \
+#   rmarkdown       \
+#   testthat        \
+#   tibble          \
+#   tinytex         \
+#   plyr
+
 install2.r --error --skipinstalled -n -1 \
   magrittr        \
   remotes         \
@@ -23,7 +35,11 @@ install2.r --error --skipinstalled -n -1 \
   testthat        \
   tibble          \
   tinytex         \
-  plyr
+  plyr            \
+  car             \
+  deSolve         \
+  fda             \
+  fds
 
 #install2.r --error --skipinstalled -n -1 \
 #  car            \
