@@ -2,29 +2,6 @@
 
 set -e
 
-# install2.r --error --skipinstalled -n -1 \
-#   usethis         \
-#   ggplot2
-
-# install2.r --error --skipinstalled -n -1 \
-#   magrittr        \
-#   remotes         \
-#   usethis         \
-#   ggplot2         \
-#   knitr
-
-# install2.r --error --skipinstalled -n -1 \
-#   magrittr        \
-#   remotes         \
-#   usethis         \
-#   ggplot2         \
-#   knitr           \
-#   rmarkdown       \
-#   testthat        \
-#   tibble          \
-#   tinytex         \
-#   plyr
-
 install2.r --error --skipinstalled -n -1 \
   magrittr        \
   remotes         \
@@ -35,25 +12,4 @@ install2.r --error --skipinstalled -n -1 \
   testthat        \
   tibble          \
   tinytex         \
-  plyr            \
-  car             \
-  deSolve         \
-  fda             \
-  fds
-
-#install2.r --error --skipinstalled -n -1 \
-#  car            \
-#  deSolve        \
-#  devtools       \
-#  fda            \
-#  fds            \
-#  ggplot2        \
-#  knitr          \
-#  languageserver \
-#  latex2exp      \
-#  magrittr       \
-#  MASS           \
-#  Matrix         \
-#  mice           \
-#  numDeriv       \
-#  plyr
+  plyr
